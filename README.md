@@ -1,3 +1,10 @@
+# lassoworkforce tiptap
+
+A fork of tiptap with changes necessary for our applications. The goal is to (when appropriate) PR changes to upstream and use upstream npm packages whenever possible.
+
+Currently this repo has the following changes that are not in upstream:
+- `packages/extension-mention` - [Add support for cross-iframe JS](https://github.com/lassoworkforce/tiptap/commit/cf7f763cb311ce50caa69092ed079bd66adf7da2)
+
 # Tiptap
 A headless, framework-agnostic and extendable rich text editor, based on [ProseMirror](https://github.com/ProseMirror/prosemirror).
 
