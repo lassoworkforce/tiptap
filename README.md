@@ -13,9 +13,9 @@ While waiting for upstreaming, we use github packages to publish versions with o
   - Use a name under `@lassoworkforce` e.g. `@lassoworkforce/tiptap-extension-mention`
   - Append a suffix to the extension version e.g. `2.0.3-lasso-1`
 2. In that packages folder, make any changes you need to make.
-3. Test those changes in the demos build (`npm run start`) and/or in our application using [yalc](https://github.com/wclr/yalc)
-4. Compile the package `npm run build`
-5. Publish the package `npm publish`
+3. Test those changes in the demos application (`npm run start` in the repo root) and/or in our application using [yalc](https://github.com/wclr/yalc)
+4. Compile the package `npm run build` (in your package subfolder)
+5. Publish the package `npm publish` (in your package subfolder)
 
 -----------------------
 
