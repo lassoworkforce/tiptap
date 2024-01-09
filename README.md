@@ -5,6 +5,20 @@ A fork of tiptap with changes necessary for our applications. The goal is to (wh
 Currently this repo has the following changes that are not in upstream:
 - `packages/extension-mention` - [Add support for cross-iframe JS](https://github.com/lassoworkforce/tiptap/commit/cf7f763cb311ce50caa69092ed079bd66adf7da2)
 
+## Making changes and publishing our own versions
+
+While waiting for upstreaming, we use github packages to publish versions with our changes under our `@lassoworkforce` namespace.
+
+1. For the package you want to publish in `packages/`, update its `package.json` (if not already updated) to
+  - Use a name under `@lassoworkforce` e.g. `@lassoworkforce/tiptap-extension-mention`
+  - Append a suffix to the extension version e.g. `2.0.3-lasso-1`
+2. In that packages folder, make any changes you need to make.
+3. Test those changes in the demos build (`npm run start`) and/or in our application using [yalc](https://github.com/wclr/yalc)
+4. Compile the package `npm run build`
+5. Publish the package `npm publish`
+
+-----------------------
+
 # Tiptap
 A headless, framework-agnostic and extendable rich text editor, based on [ProseMirror](https://github.com/ProseMirror/prosemirror).
 
