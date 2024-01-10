@@ -12,6 +12,7 @@ While waiting for upstreaming, we use github packages to publish versions with o
 1. For the package you want to publish in `packages/`, update its `package.json` (if not already updated) to
   - Use a name under `@lassoworkforce` e.g. `@lassoworkforce/tiptap-extension-mention`
   - Append a suffix to the extension version e.g. `2.0.3-lasso-1`
+  - Update the `repository` -> `url` to `https://github.com/lassoworkforce/tiptap` to associate the npm package with this repository in our github organization
 2. In that packages folder, make any changes you need to make.
 3. Test those changes in the demos application (`npm run start` in the repo root) and/or in our application using [yalc](https://github.com/wclr/yalc)
 4. Compile the package `npm run build` (in your package subfolder)
