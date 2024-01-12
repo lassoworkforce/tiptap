@@ -5,10 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.3](https://github.com/ueberdosis/tiptap/compare/v2.0.2...v2.0.3) (2023-04-13)
 
-
-### Bug Fixes
-
-* **bubble-menu:** fix debounce not working with collab/collaboration cursor ([#3956](https://github.com/ueberdosis/tiptap/issues/3956)) ([a78f8cd](https://github.com/ueberdosis/tiptap/commit/a78f8cd9646008e4db938fa3c22b0714c8bb5849))
+**Note:** Version bump only for package @tiptap/extension-mention
 
 
 
@@ -16,17 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.2](https://github.com/ueberdosis/tiptap/compare/v2.0.1...v2.0.2) (2023-04-03)
 
-
-### Bug Fixes
-
-* **react:** fix rebinding events not overwriting editor.on ([#3935](https://github.com/ueberdosis/tiptap/issues/3935)) ([64ab357](https://github.com/ueberdosis/tiptap/commit/64ab3570c1e86a65f5022793acb0292d8972dcd7))
-
-
-### Features
-
-* add box-shadow to collab demo ([c5496c1](https://github.com/ueberdosis/tiptap/commit/c5496c1b27783150dafb5ebdf6bda43648a46316))
-* landingpage demo ([#3925](https://github.com/ueberdosis/tiptap/issues/3925)) ([958925f](https://github.com/ueberdosis/tiptap/commit/958925f2560ca786cd0cf52b83b7ae51deb7dd77))
-* Tiptap collab demo styling ([87840b0](https://github.com/ueberdosis/tiptap/commit/87840b0f0821ca65d9f104d9c90512021aa70113))
+**Note:** Version bump only for package @tiptap/extension-mention
 
 
 
@@ -39,427 +26,1218 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * Update peerDependencies to fix lerna version tasks ([#3914](https://github.com/ueberdosis/tiptap/issues/3914)) ([0534f76](https://github.com/ueberdosis/tiptap/commit/0534f76401bf5399c01ca7f39d87f7221d91b4f7))
 
-## [2.0.0](https://github.com/ueberdosis/tiptap/compare/tiptap@1.32.2...v2.0.0) (2023-03-29)
 
-## What's Changed
-* Fix sending of emptystring class for Prosemirror decoration by @ascott18 in https://github.com/ueberdosis/tiptap/pull/1004
-* build(deps): bump actions/cache from v2.1.4 to v2.1.5 by @dependabot in https://github.com/ueberdosis/tiptap/pull/1024
-* build(deps): bump actions/upload-artifact from v2.2.2 to v2.2.3 by @dependabot in https://github.com/ueberdosis/tiptap/pull/1025
-* Add install instructions by @MarcelloTheArcane in https://github.com/ueberdosis/tiptap/pull/1196
-* Fix a small typo by @swanson in https://github.com/ueberdosis/tiptap/pull/1211
-* Add missing word by @swanson in https://github.com/ueberdosis/tiptap/pull/1216
-* Clarify table header documentation by @swanson in https://github.com/ueberdosis/tiptap/pull/1215
-* Typo fix by @swanson in https://github.com/ueberdosis/tiptap/pull/1217
-* Make Horizontal Rule compatible with Typography extension by @chrisarmstrong in https://github.com/ueberdosis/tiptap/pull/1241
-* Fix returning true/false in can().chain().run() by @Markario in https://github.com/ueberdosis/tiptap/pull/1252
-* [Docs] Improve example integration with Laravel Livewire by @iksaku in https://github.com/ueberdosis/tiptap/pull/1255
-* feat: better types for Vue 2 by @zcuric in https://github.com/ueberdosis/tiptap/pull/1253
-* Fix typo by @DannyFeliz in https://github.com/ueberdosis/tiptap/pull/1262
-* HorizontalRule is included in defaultExtensions by @Duncank in https://github.com/ueberdosis/tiptap/pull/1267
-* VueRenderer's ref is undefined when in production mode by @thechrisoshow in https://github.com/ueberdosis/tiptap/pull/1271
-* feat: expose node helpers  by @zcuric in https://github.com/ueberdosis/tiptap/pull/1278
-* New Feature: Generate JSON from HTML by @hanspagel in https://github.com/ueberdosis/tiptap/pull/1273
-* feat: export mark helpers by @zcuric in https://github.com/ueberdosis/tiptap/pull/1301
-* When text align is default, don't add a style attribute by @robguthrie in https://github.com/ueberdosis/tiptap/pull/1251
-* docs: complete list of extensions with changed name by @Deckluhm in https://github.com/ueberdosis/tiptap/pull/1305
-* fix(core): Increment `i` in `defaultBlockAt` by @andreavaccari in https://github.com/ueberdosis/tiptap/pull/1315
-* Fix text-align extension url by @ralbear in https://github.com/ueberdosis/tiptap/pull/1325
-* docs: fix typo by @Priestch in https://github.com/ueberdosis/tiptap/pull/1339
-* Allow passing of DependencyList to useEditor by @YousefED in https://github.com/ueberdosis/tiptap/pull/1376
-* a small clerical error? by @akirarika in https://github.com/ueberdosis/tiptap/pull/1380
-* Make HTML in docs valid by @MoPaMo in https://github.com/ueberdosis/tiptap/pull/1381
-* Wording improvement by @jonathanmach in https://github.com/ueberdosis/tiptap/pull/1389
-* Prevent tiptap from creating duplicate style tags when injecting css by @mmachatschek in https://github.com/ueberdosis/tiptap/pull/1399
-* Adding type definition for result and removing the ts-nocheck by @sereneinserenade in https://github.com/ueberdosis/tiptap/pull/1419
-* Fix name of FloatingMenu by @shadow-light in https://github.com/ueberdosis/tiptap/pull/1429
-* New extensions: add subscript and superscript extensions (including docs and tests) by @hanspagel in https://github.com/ueberdosis/tiptap/pull/1404
-* Exclude superscript from subscript, and vice versa. by @BrianHung in https://github.com/ueberdosis/tiptap/pull/1436
-* Add keyboard shortcuts to toggle superscript and subscript marks. by @BrianHung in https://github.com/ueberdosis/tiptap/pull/1437
-* Make drop cursor default to regular caret color by @shadow-light in https://github.com/ueberdosis/tiptap/pull/1444
-* use forwardRef for react wrappers by @YousefED in https://github.com/ueberdosis/tiptap/pull/1452
-* Mention: Add text attribute by @tomhrtly in https://github.com/ueberdosis/tiptap/pull/1322
-* Fix removal of textStyle mark when any style resets by @bttger in https://github.com/ueberdosis/tiptap/pull/1465
-* Fix parsing of mention nodes by @shadow-light in https://github.com/ueberdosis/tiptap/pull/1471
-* Correct default for dropcursor color in docs by @shadow-light in https://github.com/ueberdosis/tiptap/pull/1479
-* Improve gapcursor docs by @carlobeltrame in https://github.com/ueberdosis/tiptap/pull/1497
-* VueRenderer documentation with version 3 by @Tazi0 in https://github.com/ueberdosis/tiptap/pull/1491
-* Update introduction.md by @phillduffy in https://github.com/ueberdosis/tiptap/pull/1509
-* Link to contribution guidelines in CONTRIBUTING.md by @robertvanhoesel in https://github.com/ueberdosis/tiptap/pull/1541
-* build(deps): bump actions/setup-node from 2.1.5 to 2.2.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/1544
-* export createTable by @YousefED in https://github.com/ueberdosis/tiptap/pull/1469
-* doc update: onSelection → onSelectionUpdate by @forresto in https://github.com/ueberdosis/tiptap/pull/1555
-* update task-item.ts nodeview to update data-checked by @BrianHung in https://github.com/ueberdosis/tiptap/pull/1567
-* Fix typo by @JavierMartinz in https://github.com/ueberdosis/tiptap/pull/1587
-* Replace node-sass with dart sass and fix deprecation warning by @mmachatschek in https://github.com/ueberdosis/tiptap/pull/1590
-* Readd russian history shortcuts by @mmachatschek in https://github.com/ueberdosis/tiptap/pull/1589
-* Fix custom start for ordered lists by @mmachatschek in https://github.com/ueberdosis/tiptap/pull/1594
-* Doc fix: Remove braces from isEmpty & isEditable by @WilliamIPark in https://github.com/ueberdosis/tiptap/pull/1599
-* Export NodeViewRendererOptions by @sibiraj-s in https://github.com/ueberdosis/tiptap/pull/1607
-* Update hostic-dom to fix style attributes by @sibiraj-s in https://github.com/ueberdosis/tiptap/pull/1618
-* fix: export text align extension options by @iamursky in https://github.com/ueberdosis/tiptap/pull/1592
-* fix: export starter kit extension options by @iamursky in https://github.com/ueberdosis/tiptap/pull/1593
-* Adding types to Linter and making the structure a bit easier by @sereneinserenade in https://github.com/ueberdosis/tiptap/pull/1492
-* Additional input rules for typography by @arthurmcgregor in https://github.com/ueberdosis/tiptap/pull/1624
-* chore: add repository for all packages.json by @iamandrewluca in https://github.com/ueberdosis/tiptap/pull/1628
-* Fix typo by @ValentaTomas in https://github.com/ueberdosis/tiptap/pull/1634
-* Change TextAlignOptions to interface (not type) by @arthurmcgregor in https://github.com/ueberdosis/tiptap/pull/1623
-* Allow a rule to be skipped from the getAttributes callback by @joevallender in https://github.com/ueberdosis/tiptap/pull/1625
-* Fix multi character suggest by @flaviouk in https://github.com/ueberdosis/tiptap/pull/1620
-* Provide more context to update function to enable fewer re-renders by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1648
-* Examples: Syntax highlighting for React by @hanspagel in https://github.com/ueberdosis/tiptap/pull/1583
-* Apply the correct regex in markPasteRule by @joevallender in https://github.com/ueberdosis/tiptap/pull/1671
-* Fix typo by @Spone in https://github.com/ueberdosis/tiptap/pull/1693
-* build(deps): bump actions/setup-node from 2.2.0 to 2.4.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/1697
-* fix: use correct state when doc changed externally by @dkrym in https://github.com/ueberdosis/tiptap/pull/1646
-* ✨ Add CreateNodeFromContentOptions to insertContent by @castroCrea in https://github.com/ueberdosis/tiptap/pull/1678
-* Use correct reference for options.editorProps by @robertvanhoesel in https://github.com/ueberdosis/tiptap/pull/1540
-* ✨ Add typography trademark by @castroCrea in https://github.com/ueberdosis/tiptap/pull/1699
-* Menu improvements by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1714
-* Docs: Disable history demo buttons when commands are not available by @domnantas in https://github.com/ueberdosis/tiptap/pull/1721
-* fix some react focus issues by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1724
-* Update alpine docs by @sibiraj-s in https://github.com/ueberdosis/tiptap/pull/1733
-* Packages: Add a new `Color` extension to set the text color by @hanspagel in https://github.com/ueberdosis/tiptap/pull/1744
-* docs: add color picker to color extension demo by @domnantas in https://github.com/ueberdosis/tiptap/pull/1790
-* Fix Editor Reactivity by @nVitius in https://github.com/ueberdosis/tiptap/pull/1804
-* Add missing comma in example by @carlobeltrame in https://github.com/ueberdosis/tiptap/pull/1849
-* Allow triggering suggestions without prefix space by @jkosir in https://github.com/ueberdosis/tiptap/pull/1826
-* fix: change `this.value` to `value` in the vue examples with v-model by @MiloLug in https://github.com/ueberdosis/tiptap/pull/1813
-* Fix: Don’t initialize tippy on requestAnimationFrame to avoid race conditions by @enriquecastl in https://github.com/ueberdosis/tiptap/pull/1820
-* ✨ Follow Ref on ForwardRef component in reactRenderer by @castroCrea in https://github.com/ueberdosis/tiptap/pull/1690
-* feat: add extendEmptyMarkRange option to mark commands by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1859
-* Include children in placeholder plugin by @nickdbush in https://github.com/ueberdosis/tiptap/pull/1416
-* Horizontal rule demo: add selected style by @cadars in https://github.com/ueberdosis/tiptap/pull/1848
-* feat: add getText() and generateText() methods (fix #1428) by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1875
-* Fix usage example of CollaborationCursor by @carlobeltrame in https://github.com/ueberdosis/tiptap/pull/1911
-* Add type for async items on suggestions (fix TS strict types complain) by @d8vjork in https://github.com/ueberdosis/tiptap/pull/1912
-* Fix: code-block-lowlight child extensions do not highlight code by @enriquecastl in https://github.com/ueberdosis/tiptap/pull/1917
-* Use pasteRegex in addPasteRules by @jvissers in https://github.com/ueberdosis/tiptap/pull/1922
-* Docs: Clear up Prosemirror EditorProps usage by @domnantas in https://github.com/ueberdosis/tiptap/pull/1918
-* Add enableCoreExtensions flag by @flaviouk in https://github.com/ueberdosis/tiptap/pull/1923
-* Docs: Update command names in upgrade guide by @jakedolan in https://github.com/ueberdosis/tiptap/pull/1906
-* Fix: nodeInputRule() support for group match by @nokola in https://github.com/ueberdosis/tiptap/pull/1574
-* Fix "destory" method in view plugins. by @KaneCohen in https://github.com/ueberdosis/tiptap/pull/1882
-* Fix 'Edit on Github' link url for examples in docs by @mmachatschek in https://github.com/ueberdosis/tiptap/pull/1929
-* New example for custom documents (to force a heading on the top) by @hanspagel in https://github.com/ueberdosis/tiptap/pull/1948
-* Added better types for event emitter by @HuiiBuh in https://github.com/ueberdosis/tiptap/pull/1959
-* Use ref to move contentDOM by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1960
-* fix: compatibility with lowlight v2 by @fengzilong in https://github.com/ueberdosis/tiptap/pull/1939
-* build(deps): bump actions/setup-node from 2.4.0 to 2.4.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/1978
-* Fix typo in hard-break.md by @davidkrijgsman in https://github.com/ueberdosis/tiptap/pull/1988
-* Added Next.js installation guide & express setup for React by @alb in https://github.com/ueberdosis/tiptap/pull/1984
-* Fixed typo in React installation guide by @alb in https://github.com/ueberdosis/tiptap/pull/1989
-* docs: update styling by @hzpeng57 in https://github.com/ueberdosis/tiptap/pull/1998
-* React collaboration demo by @svenadlung in https://github.com/ueberdosis/tiptap/pull/1991
-* Integrate input rules and paste rules into the core by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/1997
-* Changing use of InputRule to textInputRule for Savvy example by @jakedolan in https://github.com/ueberdosis/tiptap/pull/2007
-* docs: correct the wording by @mittalyashu in https://github.com/ueberdosis/tiptap/pull/2012
-* Fix #2016 Image input rule by @nokola in https://github.com/ueberdosis/tiptap/pull/2020
-* Improve `ReactRenderer` types by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2011
-* Add `editor` dependency when registering `BubbleMenuPlugin` by @ValentaTomas in https://github.com/ueberdosis/tiptap/pull/2018
-* Allow to use commands within InputRule and PasteRule by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2035
-* build(deps): bump actions/checkout from 2.3.4 to 2.3.5 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2051
-* Add extension storage by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2069
-* Separate drags from drops in stopEvent by @thatsjonsense in https://github.com/ueberdosis/tiptap/pull/2070
-* Add editor to items prop in suggestion plugin by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2082
-* Check node type above custom update fn by @thatsjonsense in https://github.com/ueberdosis/tiptap/pull/2081
-* Add savvy example tests by @donovanglover in https://github.com/ueberdosis/tiptap/pull/2043
-* Add unit tests for demos/src/Examples/Minimal/Vue by @AlexandruValeanu in https://github.com/ueberdosis/tiptap/pull/2047
-* Added tests for Menus example by @alb in https://github.com/ueberdosis/tiptap/pull/2052
-* Docs: Fixing onUpdate example by @chris-sev in https://github.com/ueberdosis/tiptap/pull/2084
-* Fix menu example in doc by @phoenixgao in https://github.com/ueberdosis/tiptap/pull/2089
-* Replace `defaultOptions` with `addOptions` by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2088
-* docs: fix typo by @Deckluhm in https://github.com/ueberdosis/tiptap/pull/2093
-* Use the new storage feature for the `CollaborationCursor` extension by @hanspagel in https://github.com/ueberdosis/tiptap/pull/2096
-* Improve behavior when using insertContent by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2147
-* build(deps): bump actions/checkout from 2.3.5 to 2.4.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2145
-* Switch from hostic dom to zeed dom by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2151
-* fix typo in events.md by @millerrafi in https://github.com/ueberdosis/tiptap/pull/2152
-* update getJSON return type to JSONContent by @lecstor in https://github.com/ueberdosis/tiptap/pull/2153
-* Update image.md by @georgemandis in https://github.com/ueberdosis/tiptap/pull/2154
-* update zeed dom by @floriankrueger in https://github.com/ueberdosis/tiptap/pull/2155
-* Floating menu - remove composition check by @dkrym in https://github.com/ueberdosis/tiptap/pull/2137
-* Remove console.log statement from codeblock-lowlight-plugin file by @enriquecastl in https://github.com/ueberdosis/tiptap/pull/2168
-* Ignore iOS mutations when unfocused by @thatsjonsense in https://github.com/ueberdosis/tiptap/pull/2170
-* feat: Allow array of extensions for `enableInputRules` and `enablePasteRules` by @aguingand in https://github.com/ueberdosis/tiptap/pull/2119
-* Export type ColorOptions by @apaar97 in https://github.com/ueberdosis/tiptap/pull/2180
-* Split vue and react variant for interactivity demo by @svenadlung in https://github.com/ueberdosis/tiptap/pull/2186
-* Add `setEditable` to the Editor documentation by @floriankrueger in https://github.com/ueberdosis/tiptap/pull/2199
-* Bump actions/cache from 2.1.5 to 2.1.7 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2207
-* Bump actions/setup-node from 2.4.1 to 2.5.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2208
-* feat(ReactNodeViewRenderer): Add `as` option and pass through to ReactRenderer by @jessicalc in https://github.com/ueberdosis/tiptap/pull/2213
-* Add support for autolink by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2226
-* initialize autofocus selection in `createView` by @BrianHung in https://github.com/ueberdosis/tiptap/pull/2212
-* Use named exports instead of default exports by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2238
-* Svelte Example: remove wrong `type="context"` tag by @duruer in https://github.com/ueberdosis/tiptap/pull/2240
-* A brand new `CharacterCount` extension by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2256
-* join lists on toggleList by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2260
-* build(deps): bump actions/upload-artifact from 2.2.3 to 2.3.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2269
-* fix: show FloatingMenu by default only if focused by @jaulz in https://github.com/ueberdosis/tiptap/pull/2275
-* Improve backspace handling by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2284
-* Make sure editor is available on first render by @ryanto in https://github.com/ueberdosis/tiptap/pull/2282
-* fix typo in floating menu docs by @nucleartux in https://github.com/ueberdosis/tiptap/pull/2290
-* Add setup for plain js demos by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2288
-* build(deps): bump actions/upload-artifact from 2.3.0 to 2.3.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2300
-* Remove `element.current` from `useEffect` in `BubbleMenu` and `FloatingMenu` by @ValentaTomas in https://github.com/ueberdosis/tiptap/pull/2297
-* Using vue 2 and 3 when passing props to VueRenderer in Mention plugin by @domstrueboy in https://github.com/ueberdosis/tiptap/pull/2319
-* Fix typo in readme by @stijndcl in https://github.com/ueberdosis/tiptap/pull/2333
-* Fix typos in typescript.md by @hatefrad in https://github.com/ueberdosis/tiptap/pull/2339
-* typo in docs/api/editor.md by @milahu in https://github.com/ueberdosis/tiptap/pull/2338
-* Added setup script syntax to Vue 3 install docs by @NuroDev in https://github.com/ueberdosis/tiptap/pull/2324
-* build(deps): bump actions/setup-node from 2.5.0 to 2.5.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2343
-* change reactrenderer component type definition by @lukesmurray in https://github.com/ueberdosis/tiptap/pull/2327
-* Export type FontFamilyOptions by @apaar97 in https://github.com/ueberdosis/tiptap/pull/2345
-* Update vue3.md Grammar Error In Docs by @Aiyush-G in https://github.com/ueberdosis/tiptap/pull/2349
-* Fix typo in contributing.md by @webri in https://github.com/ueberdosis/tiptap/pull/2352
-* Vue3 CLI doesn't have "npm run dev" by @Aiyush-G in https://github.com/ueberdosis/tiptap/pull/2350
-* fix: export type `Level` for external use by @webri in https://github.com/ueberdosis/tiptap/pull/2354
-* add way to cancel inputrules and pasterules by @philippkuehn in https://github.com/ueberdosis/tiptap/pull/2368
-* Mark `@tiptap/react` and `@tiptap/core` as side effect free by @dcastil in https://github.com/ueberdosis/tiptap/pull/2361
-* Nuxt specific corrections by @gsqrt2 in https://github.com/ueberdosis/tiptap/pull/2410
-* build(deps): bump nanoid from 3.1.30 to 3.2.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2419
-* build(deps): bump node-fetch from 2.6.6 to 2.6.7 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2424
-* fix: use toggleHeader from prosemirror-tables by @jpobley in https://github.com/ueberdosis/tiptap/pull/2412
-* docs(nodes/image/react): remove v-if by @strdr4605 in https://github.com/ueberdosis/tiptap/pull/2461
-* Fix: Typo in Focus Command Documentation of Editor by @AngadSethi in https://github.com/ueberdosis/tiptap/pull/2476
-* expose hasAnchor to custom placeholder function by @YousefED in https://github.com/ueberdosis/tiptap/pull/2470
-* Add key bindings for uppercase letters for bold, italic and underline by @mejo- in https://github.com/ueberdosis/tiptap/pull/2478
-* Allow individual Typography rules to be disabled by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2449
-* Docs/toc undo fix by @codemzy in https://github.com/ueberdosis/tiptap/pull/2484
-* build(deps): bump nanoid from 3.1.30 to 3.2.0 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/2480
-* chore: added visual studio code debugging launch options by @bdbch in https://github.com/ueberdosis/tiptap/pull/2695
-* fix: don't override behaviour of Home / End in pc keymap by @scottsidwell in https://github.com/ueberdosis/tiptap/pull/2691
-* fix: Mark the bubble/floating menu extensions as side effect free by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2677
-* build(deps-dev): bump minimist from 1.2.5 to 1.2.6 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2667
-* build(deps): bump minimist from 1.2.5 to 1.2.6 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/2672
-* fix: prevent suggestions from being active when editor is readonly by @scottsidwell in https://github.com/ueberdosis/tiptap/pull/2692
-* fix: Allow tippyOptions.getReferenceClientRect in bubble menu to be overridden by @fleon in https://github.com/ueberdosis/tiptap/pull/2668
-* fix: allow [] as a prefix for task items by @bdbch in https://github.com/ueberdosis/tiptap/pull/2698
-* fix: improve Vue nodeViewProps typing by @DanSnow in https://github.com/ueberdosis/tiptap/pull/2681
-* fix: remove extension-text-style from character-cout peer dependencies by @pradel in https://github.com/ueberdosis/tiptap/pull/2696
-* fix(extension-link): prevent parsing `javascript:` pseudo-protocol by @phenax in https://github.com/ueberdosis/tiptap/pull/2646
-* build(deps): bump actions/cache from 2.1.7 to 3.0.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2701
-* build(deps): bump actions/checkout from 2.4.0 to 3.0.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2699
-* build(deps): bump actions/upload-artifact from 2.3.1 to 3.0.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2700
-* build(deps): bump actions/setup-node from 2.5.1 to 3.1.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2705
-* Add support for React 18 by @dcastil in https://github.com/ueberdosis/tiptap/pull/2676
-* fix broken GuideContent demos not rendering because of unexpected use… by @bdbch in https://github.com/ueberdosis/tiptap/pull/2709
-* Docs: fix file names in PHP installation by @aguingand in https://github.com/ueberdosis/tiptap/pull/2644
-* Add support for CSS Modules by @XAHTEP26 in https://github.com/ueberdosis/tiptap/pull/2723
-* Use vitejs/plugin-react and include react dependencies by @svenadlung in https://github.com/ueberdosis/tiptap/pull/2732
-* build(deps-dev): bump minimist from 1.2.5 to 1.2.6 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2725
-* build(deps): bump actions/checkout from 3.0.0 to 3.0.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2727
-* feat: Add `onBeforeStart` and `onBeforeUpdate` handlers to the render function by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2628
-* feat: Add a generic type for suggestion items by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2610
-* Reduce bundle size of @tiptap/extension-table package by @enriquecastl in https://github.com/ueberdosis/tiptap/pull/2622
-* Update Suggestion package.json by @dphuang2 in https://github.com/ueberdosis/tiptap/pull/2739
-* fix: Support inline nodes with content in @tiptap/suggestion by @thatsjonsense in https://github.com/ueberdosis/tiptap/pull/2648
-* Allow class attribute through setLink() by @Ken-vdE in https://github.com/ueberdosis/tiptap/pull/2758
-* update people by @patrickbaber in https://github.com/ueberdosis/tiptap/pull/2776
-* fix: properly calculate setDragImage position by @dilizarov in https://github.com/ueberdosis/tiptap/pull/2768
-* Ensure VueNodeViewRenderer will use Editor's Global Vue Instance by @ralphschindler in https://github.com/ueberdosis/tiptap/pull/2604
-* refactor(global): remove yarn in favor for npm by @bdbch in https://github.com/ueberdosis/tiptap/pull/2775
-* add support for CSP nonces in createStyleTag by @fekle in https://github.com/ueberdosis/tiptap/pull/2601
-* add validate option to link extension by @bdbch in https://github.com/ueberdosis/tiptap/pull/2781
-* Cypress tests for examples by @bdbch in https://github.com/ueberdosis/tiptap/pull/2777
-* build(deps): bump actions/setup-node from 3.1.1 to 3.2.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2793
-* fix: extendMarkRange doesn't work when cursor is at end of mark, despite isActive() returning true for that mark by @JDinABox in https://github.com/ueberdosis/tiptap/pull/2717
-* Expose "range" to textSerializer. Used in "getTextBetween" by @panta82 in https://github.com/ueberdosis/tiptap/pull/2684
-* Export `getTextSerializersFromSchema` helper, and fix typo in its name by @sjdemartini in https://github.com/ueberdosis/tiptap/pull/2750
-* fix: disable broken tests for experiements with further todo message by @bdbch in https://github.com/ueberdosis/tiptap/pull/2808
-* Add `className` option and pass through to ReactRenderer by @anton-liubushkin in https://github.com/ueberdosis/tiptap/pull/2794
-* Fix InputRule regex matcher ignoring non-text leaflets in textBefore by @bdbch in https://github.com/ueberdosis/tiptap/pull/2807
-* Add option to allow task items to be checkable (uncontrolled) by @kaspnilsson in https://github.com/ueberdosis/tiptap/pull/2474
-* feat: Required attributes by @thatsjonsense in https://github.com/ueberdosis/tiptap/pull/2640
-* Update team by @montapro in https://github.com/ueberdosis/tiptap/pull/2791
-* fix: Only trigger image input rule at the start or with a preceding space by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2830
-* In Vue 2 VueRenderer, only Vue.extend() non-VueConstructor arguments by @ralphschindler in https://github.com/ueberdosis/tiptap/pull/2824
-* fix(suggestion): :bug: make clientrect prop optional by @bdbch in https://github.com/ueberdosis/tiptap/pull/2813
-* build(deps): bump actions/cache from 3.0.2 to 3.0.3 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2851
-* Fixed(vue-2): `Avoid mutating a prop directly` error message to reproduce by @HondryTravis in https://github.com/ueberdosis/tiptap/pull/2834
-* Add support for custom protocols in extension-link by @shaunabanana in https://github.com/ueberdosis/tiptap/pull/2832
-* fix(textStyle): Null-safe parseHTML getting no color/fontFamily from HTMLElement styles by @d8vjork in https://github.com/ueberdosis/tiptap/pull/2825
-* build(deps): bump actions/upload-artifact from 3.0.0 to 3.1.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2820
-* Declare lowlight as a peerDependency in `@tiptap/extension-code-block-lowlight` by @enriquecastl in https://github.com/ueberdosis/tiptap/pull/2625
-* add precommit hook for linting and automatic eslint fixes + update eslint packages by @bdbch in https://github.com/ueberdosis/tiptap/pull/2862
-* Adding missing extensions to docs in https://tiptap.dev/api/extensions by @Lior539 in https://github.com/ueberdosis/tiptap/pull/2856
-* docs(docs): add missing documentation for commands by @bdbch in https://github.com/ueberdosis/tiptap/pull/2861
-* refactor: use index files for imports to simplify the export flow by @bdbch in https://github.com/ueberdosis/tiptap/pull/2870
-* feat(extension/youtube): :sparkles: new youtube embed extension by @bdbch in https://github.com/ueberdosis/tiptap/pull/2814
-* build(deps): bump actions/cache from 3.0.3 to 3.0.4 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2877
-* build(deps): bump actions/setup-node from 3.2.0 to 3.3.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2878
-* chore: migrate to new versions of prosemirror packages by @bdbch in https://github.com/ueberdosis/tiptap/pull/2854
-* docs: improve docs for youtube extension by @svenadlung in https://github.com/ueberdosis/tiptap/pull/2902
-* Allow setting `whiteSpace` style for `NodeViewWrapper` & `NodeViewContent` by @EvitanRelta in https://github.com/ueberdosis/tiptap/pull/2884
-* refactor(maintainment): set dependency versions for prosemirror and y… by @bdbch in https://github.com/ueberdosis/tiptap/pull/2904
-* feat: Allow multiple prefix characters to trigger a suggestion by @rfgamaral in https://github.com/ueberdosis/tiptap/pull/2896
-* fix: editor don't has contentComponent attribute when suggestion onUp… by @Young6118 in https://github.com/ueberdosis/tiptap/pull/2916
-* Fix state update after component unmounted by @SavKS in https://github.com/ueberdosis/tiptap/pull/2857
-* docs: fix livewire attribute by @ccchapman in https://github.com/ueberdosis/tiptap/pull/2928
-* build(deps): bump parse-url from 6.0.0 to 6.0.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2961
-* fix(core): only respect text of node before current position (#2937) by @svenadlung in https://github.com/ueberdosis/tiptap/pull/2941
-* chore: lint only staged files by @ahhshm in https://github.com/ueberdosis/tiptap/pull/2957
-* fix(core): dont use selection for setContent replacement by @bdbch in https://github.com/ueberdosis/tiptap/pull/2934
-* refactor: remove duplicated function by @ahhshm in https://github.com/ueberdosis/tiptap/pull/2956
-* docs(figure): pass an object to `nodeInputRule` by @ahhshm in https://github.com/ueberdosis/tiptap/pull/2954
-* docs: update alpine installation by @patrickbaber in https://github.com/ueberdosis/tiptap/pull/3081
-* docs(extensions): mention community extensions and discussion thread by @sereneinserenade in https://github.com/ueberdosis/tiptap/pull/2991
-* build(deps-dev): bump svelte from 3.48.0 to 3.49.0 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/2992
-* build(deps-dev): bump svelte from 3.48.0 to 3.49.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2993
-* fix(core): isNodeSelection, isTextSelection not always false by @kivikakk in https://github.com/ueberdosis/tiptap/pull/3089
-* build(deps): bump actions/setup-node from 3.3.0 to 3.4.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/2998
-* build(deps): bump terser from 5.14.1 to 5.14.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3009
-* build(deps): bump actions/cache from 3.0.4 to 3.0.7 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3087
-* Fix pasteRulesPlugin always adding one extra character to text range by @Billiam in https://github.com/ueberdosis/tiptap/pull/2968
-* fix: let StarterKit be imported as common js module via named import by @sipec in https://github.com/ueberdosis/tiptap/pull/2967
-* fix(core): createCan command props shouldn't try dispatch (#3025) by @kivikakk in https://github.com/ueberdosis/tiptap/pull/3026
-* build(deps): bump actions/cache from 3.0.7 to 3.0.8 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3112
-* fix(core): setNodeSelection should not clamp pos by Selection.atStart/atEnd by @kivikakk in https://github.com/ueberdosis/tiptap/pull/3091
-* Make Suggestion extension use view.dom instead of document by @Faleij in https://github.com/ueberdosis/tiptap/pull/3093
-* fix(core): make setEditable trigger onUpdate function by @bdbch in https://github.com/ueberdosis/tiptap/pull/2935
-* fix: fix React Node View render problem in React 18 by @Darmody in https://github.com/ueberdosis/tiptap/pull/2985
-* feature(core): add exit handling for marks by @bdbch in https://github.com/ueberdosis/tiptap/pull/2925
-* build(deps-dev): bump vite from 2.9.12 to 2.9.13 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/3141
-* build(deps-dev): bump vite from 2.9.12 to 2.9.13 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3145
-* fix: vue inject grammar warning by @zhxqc in https://github.com/ueberdosis/tiptap/pull/3144
-* fix(core): make setEditable trigger all 'update' listeners by @Rhys-T in https://github.com/ueberdosis/tiptap/pull/3140
-* fix: Typo by @NagariaHussain in https://github.com/ueberdosis/tiptap/pull/3132
-* docs: fix naming by @masl in https://github.com/ueberdosis/tiptap/pull/3151
-* Include bubble menu element when checking if the editor view still has focus by @StefKors in https://github.com/ueberdosis/tiptap/pull/3150
-* Fix typo in docs by @carlobeltrame in https://github.com/ueberdosis/tiptap/pull/3162
-* fix(extension-code-block-lowlight): Bump lowlight to 2.7.0, remove outdated @types by @tarngerine in https://github.com/ueberdosis/tiptap/pull/3002
-* fix(core): insert PasteRule Node at matched position (#2942) by @edlb in https://github.com/ueberdosis/tiptap/pull/2943
-* add-empty-editor-class-to-root-div by @BrianHung in https://github.com/ueberdosis/tiptap/pull/2665
-* build(deps): bump parse-path from 4.0.4 to 5.0.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3178
-* fix: move React `flushSync` to microtask by @sampi in https://github.com/ueberdosis/tiptap/pull/3188
-* Fix bubble menu and floating menu being available when editor is not editable by @bdbch in https://github.com/ueberdosis/tiptap/pull/3195
-* feat: Add alias condition to code-block-lowlight by @dngwoodo in https://github.com/ueberdosis/tiptap/pull/3155
-* feat(extension-typography): add servicemark input rule by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3220
-* fix(types): fix link and table type errors by @johnfraney in https://github.com/ueberdosis/tiptap/pull/3208
-* test: fix failing test by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3230
-* feat(extension-link): Change autolink to only apply after breaking a word by @C-Hess in https://github.com/ueberdosis/tiptap/pull/3232
-* chore(maintainment): :rocket: update prosemirror packages by @bdbch in https://github.com/ueberdosis/tiptap/pull/3237
-* fix(core): Can() does not work for setting marks by @C-Hess in https://github.com/ueberdosis/tiptap/pull/3223
-* Ensure text blocks exist before referencing them by @ScopeyNZ in https://github.com/ueberdosis/tiptap/pull/3251
-* fix(core): InputRules does not work for ranges containing multiple text nodes by @hamflx in https://github.com/ueberdosis/tiptap/pull/3205
-* fix(core) - support attributes being null/undefined  by @albertogiunta in https://github.com/ueberdosis/tiptap/pull/3245
-* fix: set default allowedPrefixes null by @Matrixbirds in https://github.com/ueberdosis/tiptap/pull/3239
-* fix(extension/link): fix last word value being undefined by @bdbch in https://github.com/ueberdosis/tiptap/pull/3258
-* build(deps): bump d3-color from 3.0.1 to 3.1.0 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/3260
-* docs: link YouTube node docs to proper GitHub url by @nielslanting in https://github.com/ueberdosis/tiptap/pull/3283
-* fix: typo in docs by @danielyuenhx in https://github.com/ueberdosis/tiptap/pull/3265
-* Fixed dragged text not being deleted after drop on another editor by @LuchoCateura in https://github.com/ueberdosis/tiptap/pull/3279
-* Fixed using both color and highlight together  by @nkonev in https://github.com/ueberdosis/tiptap/pull/3311
-* Cleanup linkifyjs when the editor is destroyed by @educastellano in https://github.com/ueberdosis/tiptap/pull/3316
-* Feature/youtube parameters by @LuchoCateura in https://github.com/ueberdosis/tiptap/pull/3307
-* Fix installation and examples link by @catalinmiron in https://github.com/ueberdosis/tiptap/pull/3298
-* fix(docs): typo by @Calvein in https://github.com/ueberdosis/tiptap/pull/3362
-* fix(extension/placeholder): Resolve placeholder performance issues by @C-Hess in https://github.com/ueberdosis/tiptap/pull/3361
-* build(deps): bump parse-url from 7.0.2 to 8.1.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3384
-* refactor(extension/bubble-menu): add debounce to bubble menu updates by @bdbch in https://github.com/ueberdosis/tiptap/pull/3385
-* build(deps): bump actions/setup-node from 3.4.1 to 3.5.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3318
-* docs: Fix typos in CHANGELOG.md by @rvrvrv in https://github.com/ueberdosis/tiptap/pull/3328
-* build(deps): bump actions/cache from 3.0.8 to 3.0.11 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3317
-* fix: remove blur event listener from tippy element (#3365) by @MihirGH in https://github.com/ueberdosis/tiptap/pull/3366
-* fixes typo in  suggestion.ts by @alejandrogarciasalas in https://github.com/ueberdosis/tiptap/pull/3386
-* docs(svelte): fix link to get started with svelte by @taismassaro in https://github.com/ueberdosis/tiptap/pull/3396
-* build(deps): bump loader-utils from 2.0.2 to 2.0.3 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3395
-* Update jobs.md by @montapro in https://github.com/ueberdosis/tiptap/pull/3432
-* extension/table: Fix prosemirror-tables dependency not using a correct namespace by @bdbch in https://github.com/ueberdosis/tiptap/pull/3448
-* typo: custom-extensions.md completely by @williamsk91 in https://github.com/ueberdosis/tiptap/pull/3447
-* Fix #3435 - CommonJS and ESM loading confusion by @tomi-bigpi in https://github.com/ueberdosis/tiptap/pull/3436
-* build(deps): bump loader-utils from 2.0.3 to 2.0.4 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3426
-* Fix cursor not following to new node when using a react node view by @ruipserra in https://github.com/ueberdosis/tiptap/pull/3331
-* fix(core): implement deleteCurrentNode command & fix node joining on Delete key by @bdbch in https://github.com/ueberdosis/tiptap/pull/3192
-* fix(link): allow to unset target attribute by @dargmuesli in https://github.com/ueberdosis/tiptap/pull/3425
-* feat(commands): add joinUp and joinDown command & refactor join command code by @bdbch in https://github.com/ueberdosis/tiptap/pull/3455
-* docs: rotate demo rooms by @patrickbaber in https://github.com/ueberdosis/tiptap/pull/3475
-* Draft: Moves all prosemirror deps to peerDependencies & devDependencies by @janthurau in https://github.com/ueberdosis/tiptap/pull/3487
-* fix(extension-bubble-menu): don't debounce without valid selection by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3501
-* refactor(extension-youtube): rename utility function name by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3498
-* Check if url is valid before creating YouTube player by @umgustavo in https://github.com/ueberdosis/tiptap/pull/3484
-* Fix docs menus.md missing word by @kandros in https://github.com/ueberdosis/tiptap/pull/3457
-* build(deps): bump minimatch from 3.0.4 to 3.1.2 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/3489
-* Fix: custom text serializers should override text serializers defined in the schema by @tovaschreier in https://github.com/ueberdosis/tiptap/pull/3546
-* Update sink-list-item.md by @vuau in https://github.com/ueberdosis/tiptap/pull/3629
-* 🧹 Allow `editor.setEditable` to omit updates by @ZaymonFC in https://github.com/ueberdosis/tiptap/pull/3301
-* Change Build Process to Lerna + tsup & prepare for prosemirror-meta package by @bdbch in https://github.com/ueberdosis/tiptap/pull/3555
-* fix(typo): typescript.md by @N0N1m3 in https://github.com/ueberdosis/tiptap/pull/3657
-* Update schema.md by @matrei in https://github.com/ueberdosis/tiptap/pull/3645
-* New Feature: Prosemirror Meta Package by @bdbch in https://github.com/ueberdosis/tiptap/pull/3556
-* Added CSS Required for Setup by @james-william-r in https://github.com/ueberdosis/tiptap/pull/3711
-* Update installation guides by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3698
-* Make y-prosemirror a peer dependency (extension-collaboration) by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3697
-* Remove lodash types, replace pm deps (extension-bubble-menu) by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3696
-* Remove lodash dependencies in extension-floating-menu by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3695
-* build(deps): bump cypress-io/github-action from 4.2.0 to 5.0.8 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3707
-* build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3687
-* Move back from tsup/esbuild to rollup by @bdbch in https://github.com/ueberdosis/tiptap/pull/3720
-* fix: Draggable nodes should respect drag handles by @matthewmullin01 in https://github.com/ueberdosis/tiptap/pull/3677
-* build(deps): bump actions/cache from 3.0.11 to 3.2.5 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3741
-* build(deps): bump act10ns/slack from 1 to 2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3404
-* build(deps): bump json5 from 1.0.1 to 1.0.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3605
-* build(deps): bump json5 from 2.2.1 to 2.2.3 in /demos by @dependabot in https://github.com/ueberdosis/tiptap/pull/3607
-* build(deps): bump actions/checkout from 3.0.2 to 3.3.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3609
-* build(deps): bump actions/upload-artifact from 3.1.0 to 3.1.2 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3610
-* build(deps): bump actions/setup-node from 3.5.1 to 3.6.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3613
-* Update regex to exclude channel URL unfurling by @JustMaier in https://github.com/ueberdosis/tiptap/pull/3750
-* Fix type for BubbleMenu prop pluginKey by @rumbcam in https://github.com/ueberdosis/tiptap/pull/3678
-* Extend `nodePasteRule` `find` type to most generic `PasteRuleFinder` by @jiegillet in https://github.com/ueberdosis/tiptap/pull/3759
-* fix(extension-link): Click handler opens selected link instead of clicked link by @jmtaber129 in https://github.com/ueberdosis/tiptap/pull/3732
-* fix(typography): dont create fractions in the middle of a string by @bdbch in https://github.com/ueberdosis/tiptap/pull/3762
-* Use Tailwind CDN direclty? by @RicoTrevisan in https://github.com/ueberdosis/tiptap/pull/3643
-* fix: override schema text serializers if provided in getText options by @harrisonlo in https://github.com/ueberdosis/tiptap/pull/3672
-* chore: add eslintcache by @Simon-He95 in https://github.com/ueberdosis/tiptap/pull/3525
-* document removing or overriding link attributes by @epelc in https://github.com/ueberdosis/tiptap/pull/3576
-* Add onFirstRender callback option by @Flamenco in https://github.com/ueberdosis/tiptap/pull/3600
-* Add Plugin Key to placeholder component. by @tazirahmb in https://github.com/ueberdosis/tiptap/pull/3652
-* Export `createNodeFromContent` and other missing helpers by @jacksleight in https://github.com/ueberdosis/tiptap/pull/3558
-* fix: Queue flushSync call by @kylealwyn in https://github.com/ueberdosis/tiptap/pull/3533
-* build(deps): bump cypress-io/github-action from 5.0.8 to 5.0.9 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3766
-* feat: #3540 Ability to preserve marks on lists by @gethari in https://github.com/ueberdosis/tiptap/pull/3541
-* Move y-prosemirror to peer-deps by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3763
-* fix: #3773 - Array for content breaks editor by @gethari in https://github.com/ueberdosis/tiptap/pull/3786
-* Docs Update for Installation instructions for PHP Livewire by @peterfox in https://github.com/ueberdosis/tiptap/pull/3618
-* add optionalSlashSlash to protocol options by @taras-turchenko-moc in https://github.com/ueberdosis/tiptap/pull/3675
-* fix(core): allow insertContentAt and insertContent text node arrays by @bdbch in https://github.com/ueberdosis/tiptap/pull/3790
-* chore: allow new ReactComponentContent components to be created by @bdbch in https://github.com/ueberdosis/tiptap/pull/3782
-* fix(react): reset initialized when editorcontent is unmounting by @bdbch in https://github.com/ueberdosis/tiptap/pull/3781
-* docs: add extension cli note to contributing docs by @bdbch in https://github.com/ueberdosis/tiptap/pull/3793
-* fix: update typings for node view decorations by @bdbch in https://github.com/ueberdosis/tiptap/pull/3783
-* build(deps): bump actions/cache from 3.2.5 to 3.2.6 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3795
-* Fix destroyed view causing errors on dispatchTransaction by @bdbch in https://github.com/ueberdosis/tiptap/pull/3799
-* Only allow left mouse button to open links by @thecodrr in https://github.com/ueberdosis/tiptap/pull/3777
-* Optimize empty document detection in `documentClear` plugin by @thecodrr in https://github.com/ueberdosis/tiptap/pull/3778
-* fix: use prose-base class for sm screens  by @cstrnt in https://github.com/ueberdosis/tiptap/pull/3810
-* Adds attributes to toggleList by @katerlouis in https://github.com/ueberdosis/tiptap/pull/3776
-* fix(tests): add assertion for each valid/invalid link by @bdbch in https://github.com/ueberdosis/tiptap/pull/3815
-* feat(react): allow html attrs in react renderer by @bdbch in https://github.com/ueberdosis/tiptap/pull/3812
-* fix(react): allow updating event handlers on editor by @bdbch in https://github.com/ueberdosis/tiptap/pull/3811
-* Improve Cypress Test runner performance with parallelization by @bdbch in https://github.com/ueberdosis/tiptap/pull/3817
-* build(deps): bump cypress-io/github-action from 5.0.9 to 5.2.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3835
-* fix: Ordered list start support broke in #3541 by @gethari in https://github.com/ueberdosis/tiptap/pull/3833
-* Refactor typings (extension-youtube) by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3842
-* build(deps): bump actions/checkout from 3.3.0 to 3.4.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3864
-* build(deps): bump cypress-io/github-action from 5.2.0 to 5.5.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3863
-* build(deps-dev): bump webpack from 5.73.0 to 5.76.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3855
-* Docs: consistent naming of Tiptap by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3882
-* [PROPOSAL] dynamic default attributes by @mylesj in https://github.com/ueberdosis/tiptap/pull/3379
-* style(core): fix linting issues by @bdbch in https://github.com/ueberdosis/tiptap/pull/3884
-* Handle NodeViews in BubbleMenu positioning by @bdbch in https://github.com/ueberdosis/tiptap/pull/3881
-* chore: add Dev demo folder by @bdbch in https://github.com/ueberdosis/tiptap/pull/3887
-* CI: Remove slack notifications by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3885
-* Docs: Update nodes and extensions lists by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3886
-* Docs: Remove pro extension callout from collab docs by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3883
-* Fixing reoccurring issue #3331 and improving related PR #3533 by @KentoMoriwaki in https://github.com/ueberdosis/tiptap/pull/3862
-* Release Candidate Preparation by @bdbch in https://github.com/ueberdosis/tiptap/pull/3890
-* chore: add new release and prerelease actions by @bdbch in https://github.com/ueberdosis/tiptap/pull/3836
-* Updates @hocuspocus/provider, moves demo to TiptapCollab by @janthurau in https://github.com/ueberdosis/tiptap/pull/3895
-* Merge pull request #3895 from ueberdosis/feature/ttCollabProvider by @janthurau in https://github.com/ueberdosis/tiptap/pull/3897
-* Collaboration: Fix history after late-registering plugins by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3901
-* ci: remove slack notifications by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3898
-* build(deps): bump actions/checkout from 3.4.0 to 3.5.0 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3889
-* build(deps): bump cypress-io/github-action from 5.5.0 to 5.5.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3888
-* build(deps): bump actions/cache from 3.2.6 to 3.3.1 by @dependabot in https://github.com/ueberdosis/tiptap/pull/3846
-* docs: prepare for stable release by @svenadlung in https://github.com/ueberdosis/tiptap/pull/3892
-* New Issue & Discussion Templates by @bdbch in https://github.com/ueberdosis/tiptap/pull/3907
-* feat(core): add editor to this context in schema functions by @bdbch in https://github.com/ueberdosis/tiptap/pull/3909
+
+
+
+# [2.0.0-beta.220](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.219...v2.0.0-beta.220) (2023-02-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.219](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.218...v2.0.0-beta.219) (2023-02-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.218](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.217...v2.0.0-beta.218) (2023-02-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.217](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.216...v2.0.0-beta.217) (2023-02-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.216](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.215...v2.0.0-beta.216) (2023-02-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.215](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.214...v2.0.0-beta.215) (2023-02-08)
+
+
+### Bug Fixes
+
+* fix builds including prosemirror ([a380ec4](https://github.com/ueberdosis/tiptap/commit/a380ec41d198ebacc80cea9e79b0a8aa3092618a))
+
+
+
+
+
+# [2.0.0-beta.214](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.213...v2.0.0-beta.214) (2023-02-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.213](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.212...v2.0.0-beta.213) (2023-02-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.212](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.211...v2.0.0-beta.212) (2023-02-03)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.211](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.210...v2.0.0-beta.211) (2023-02-02)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.210](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.209...v2.0.0-beta.210) (2023-02-02)
+
+
+### Features
+
+* **pm:** new prosemirror package for dependency resolving ([f387ad3](https://github.com/ueberdosis/tiptap/commit/f387ad3dd4c2b30eaea33fb0ba0b42e0cd39263b))
+
+
+
+
+
+# [2.0.0-beta.209](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.208...v2.0.0-beta.209) (2022-12-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.208](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.207...v2.0.0-beta.208) (2022-12-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.207](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.206...v2.0.0-beta.207) (2022-12-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.206](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.205...v2.0.0-beta.206) (2022-12-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.205](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.204...v2.0.0-beta.205) (2022-12-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.204](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.203...v2.0.0-beta.204) (2022-11-25)
+
+
+### Bug Fixes
+
+* **core:** rename esm modules to esm.js ([c1a0c3a](https://github.com/ueberdosis/tiptap/commit/c1a0c3ae43baac9dd5ed90903d3a0d4eaeea7702))
+
+
+
+
+
+# [2.0.0-beta.203](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.202...v2.0.0-beta.203) (2022-11-24)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.202](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.201...v2.0.0-beta.202) (2022-11-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.201](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.200...v2.0.0-beta.201) (2022-11-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.200](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.199...v2.0.0-beta.200) (2022-11-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.199](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.198...v2.0.0-beta.199) (2022-09-30)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.198](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.197...v2.0.0-beta.198) (2022-09-29)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.197](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.196...v2.0.0-beta.197) (2022-09-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.196](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.195...v2.0.0-beta.196) (2022-09-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.195](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.194...v2.0.0-beta.195) (2022-09-14)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.194](https://github.com/ueberdosis/tiptap/compare/v2.0.0-beta.193...v2.0.0-beta.194) (2022-09-11)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.193](https://github.com/ueberdosis/tiptap/compare/v0.1.2...v2.0.0-beta.193) (2022-09-10)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add pluginKey option to suggestion plugin, fix [#1282](https://github.com/ueberdosis/tiptap/issues/1282) ([7cf3350](https://github.com/ueberdosis/tiptap/commit/7cf3350a832181f8cc1fa7ea1afec8f8d083e507))
+* **extension/mention:** collapse selection to end after suggestion insertion to fix chrome selection issue with mouse ([163de4e](https://github.com/ueberdosis/tiptap/commit/163de4e1876000a88117da8a02b1f62cd4a2cfb0))
+* fix check for showing mention suggestion ([5e652c9](https://github.com/ueberdosis/tiptap/commit/5e652c94a7d72e480003449b2dd6050a55df9cc7))
+* Fix parsing of mention nodes ([#1471](https://github.com/ueberdosis/tiptap/issues/1471)) ([5178172](https://github.com/ueberdosis/tiptap/commit/5178172864e167538698186d56e0aa75df307c98))
+* fixes an error when using the mention extension and pasting text ending with "@", fix [#2413](https://github.com/ueberdosis/tiptap/issues/2413) ([55fa220](https://github.com/ueberdosis/tiptap/commit/55fa2208996f648a2ca06b0a363a249ff5e39169))
+* prevent multiple space characters after mention node, fix [#1703](https://github.com/ueberdosis/tiptap/issues/1703) ([3f7e6b2](https://github.com/ueberdosis/tiptap/commit/3f7e6b219b572d2aa06618ce125ba86cd2fcd0bd))
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/tiptap/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add insertContent() command, deprecate insertText(), insertHTML() and insertNode() ([b8d9b7d](https://github.com/ueberdosis/tiptap/commit/b8d9b7d4c70b38fb9eec3c079be8243d30166e5e))
+* add label attribute to mention extension ([#1322](https://github.com/ueberdosis/tiptap/issues/1322)) ([c3afe88](https://github.com/ueberdosis/tiptap/commit/c3afe880ae56e53da429590be4c7e2ffe5a70486))
+* add renderLabel option to mention extension, see [#1322](https://github.com/ueberdosis/tiptap/issues/1322) ([3b78af4](https://github.com/ueberdosis/tiptap/commit/3b78af44a054fa5d0101d8f7d836409b0b68547e))
+* parseHTML for attributes should return the value instead of an object now, fix [#1863](https://github.com/ueberdosis/tiptap/issues/1863) ([8a3b47a](https://github.com/ueberdosis/tiptap/commit/8a3b47a529d28b28b50d634c6ff69b8e5aad3080))
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.103](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.102...@tiptap/extension-mention@2.0.0-beta.103) (2022-09-03)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.102](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.101...@tiptap/extension-mention@2.0.0-beta.102) (2022-06-27)
+
+
+### Bug Fixes
+
+* **extension/mention:** collapse selection to end after suggestion insertion to fix chrome selection issue with mouse ([163de4e](https://github.com/ueberdosis/tiptap/commit/163de4e1876000a88117da8a02b1f62cd4a2cfb0))
+
+
+
+
+
+# [2.0.0-beta.101](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.100...@tiptap/extension-mention@2.0.0-beta.101) (2022-06-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.100](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.98...@tiptap/extension-mention@2.0.0-beta.100) (2022-06-17)
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.98](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.98...@tiptap/extension-mention@2.0.0-beta.98) (2022-06-17)
+
+
+### Reverts
+
+* Revert "Publish" ([9c38d27](https://github.com/ueberdosis/tiptap/commit/9c38d2713e6feac5645ad9c1bfc57abdbf054576))
+
+
+
+
+
+# [2.0.0-beta.97](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.96...@tiptap/extension-mention@2.0.0-beta.97) (2022-05-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.96](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.95...@tiptap/extension-mention@2.0.0-beta.96) (2022-04-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.95](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.94...@tiptap/extension-mention@2.0.0-beta.95) (2022-01-25)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.94](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.93...@tiptap/extension-mention@2.0.0-beta.94) (2022-01-21)
+
+
+### Bug Fixes
+
+* fixes an error when using the mention extension and pasting text ending with "@", fix [#2413](https://github.com/ueberdosis/tiptap/issues/2413) ([55fa220](https://github.com/ueberdosis/tiptap/commit/55fa2208996f648a2ca06b0a363a249ff5e39169))
+
+
+
+
+
+# [2.0.0-beta.93](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.92...@tiptap/extension-mention@2.0.0-beta.93) (2022-01-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.92](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.91...@tiptap/extension-mention@2.0.0-beta.92) (2022-01-13)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.91](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.90...@tiptap/extension-mention@2.0.0-beta.91) (2022-01-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.90](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.89...@tiptap/extension-mention@2.0.0-beta.90) (2021-12-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.89](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.88...@tiptap/extension-mention@2.0.0-beta.89) (2021-12-02)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.88](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.87...@tiptap/extension-mention@2.0.0-beta.88) (2021-12-02)
+
+
+### Bug Fixes
+
+* remove some magic strings ([6c34dec](https://github.com/ueberdosis/tiptap/commit/6c34dec33ac39c9f037a0a72e4525f3fc6d422bf))
+
+
+
+
+
+# [2.0.0-beta.87](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.86...@tiptap/extension-mention@2.0.0-beta.87) (2021-11-17)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.86](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.85...@tiptap/extension-mention@2.0.0-beta.86) (2021-11-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.85](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.84...@tiptap/extension-mention@2.0.0-beta.85) (2021-11-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.84](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.83...@tiptap/extension-mention@2.0.0-beta.84) (2021-11-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.83](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.82...@tiptap/extension-mention@2.0.0-beta.83) (2021-11-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.82](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.81...@tiptap/extension-mention@2.0.0-beta.82) (2021-11-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.81](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.80...@tiptap/extension-mention@2.0.0-beta.81) (2021-10-31)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.80](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.79...@tiptap/extension-mention@2.0.0-beta.80) (2021-10-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.79](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.78...@tiptap/extension-mention@2.0.0-beta.79) (2021-10-25)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.78](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.77...@tiptap/extension-mention@2.0.0-beta.78) (2021-10-22)
+
+
+### Bug Fixes
+
+* fix check for showing mention suggestion ([5e652c9](https://github.com/ueberdosis/tiptap/commit/5e652c94a7d72e480003449b2dd6050a55df9cc7))
+
+
+
+
+
+# [2.0.0-beta.77](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.76...@tiptap/extension-mention@2.0.0-beta.77) (2021-10-14)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.76](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.75...@tiptap/extension-mention@2.0.0-beta.76) (2021-10-14)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.75](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.74...@tiptap/extension-mention@2.0.0-beta.75) (2021-10-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.74](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.73...@tiptap/extension-mention@2.0.0-beta.74) (2021-09-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.73](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.72...@tiptap/extension-mention@2.0.0-beta.73) (2021-09-15)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.72](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.71...@tiptap/extension-mention@2.0.0-beta.72) (2021-09-08)
+
+
+### Features
+
+* parseHTML for attributes should return the value instead of an object now, fix [#1863](https://github.com/ueberdosis/tiptap/issues/1863) ([8a3b47a](https://github.com/ueberdosis/tiptap/commit/8a3b47a529d28b28b50d634c6ff69b8e5aad3080))
+
+
+
+
+
+# [2.0.0-beta.71](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.70...@tiptap/extension-mention@2.0.0-beta.71) (2021-09-06)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.70](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.69...@tiptap/extension-mention@2.0.0-beta.70) (2021-08-23)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.69](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.68...@tiptap/extension-mention@2.0.0-beta.69) (2021-08-23)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.68](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.67...@tiptap/extension-mention@2.0.0-beta.68) (2021-08-20)
+
+
+### Bug Fixes
+
+* prevent multiple space characters after mention node, fix [#1703](https://github.com/ueberdosis/tiptap/issues/1703) ([3f7e6b2](https://github.com/ueberdosis/tiptap/commit/3f7e6b219b572d2aa06618ce125ba86cd2fcd0bd))
+
+
+
+
+
+# [2.0.0-beta.67](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.66...@tiptap/extension-mention@2.0.0-beta.67) (2021-08-13)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.66](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.65...@tiptap/extension-mention@2.0.0-beta.66) (2021-08-13)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.65](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.64...@tiptap/extension-mention@2.0.0-beta.65) (2021-08-13)
+
+
+### Bug Fixes
+
+* add pluginKey option to suggestion plugin, fix [#1282](https://github.com/ueberdosis/tiptap/issues/1282) ([7cf3350](https://github.com/ueberdosis/tiptap/commit/7cf3350a832181f8cc1fa7ea1afec8f8d083e507))
+
+
+
+
+
+# [2.0.0-beta.64](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.63...@tiptap/extension-mention@2.0.0-beta.64) (2021-08-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.63](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.62...@tiptap/extension-mention@2.0.0-beta.63) (2021-07-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.62](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.61...@tiptap/extension-mention@2.0.0-beta.62) (2021-07-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.60...@tiptap/extension-mention@2.0.0-beta.61) (2021-06-23)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.60](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.59...@tiptap/extension-mention@2.0.0-beta.60) (2021-06-17)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.58...@tiptap/extension-mention@2.0.0-beta.59) (2021-06-15)
+
+
+### Bug Fixes
+
+* Fix parsing of mention nodes ([#1471](https://github.com/ueberdosis/tiptap/issues/1471)) ([5178172](https://github.com/ueberdosis/tiptap/commit/5178172864e167538698186d56e0aa75df307c98))
+
+
+
+
+
+# [2.0.0-beta.58](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.57...@tiptap/extension-mention@2.0.0-beta.58) (2021-06-14)
+
+
+### Features
+
+* add label attribute to mention extension ([#1322](https://github.com/ueberdosis/tiptap/issues/1322)) ([c3afe88](https://github.com/ueberdosis/tiptap/commit/c3afe880ae56e53da429590be4c7e2ffe5a70486))
+* add renderLabel option to mention extension, see [#1322](https://github.com/ueberdosis/tiptap/issues/1322) ([3b78af4](https://github.com/ueberdosis/tiptap/commit/3b78af44a054fa5d0101d8f7d836409b0b68547e))
+
+
+
+
+
+# [2.0.0-beta.57](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.56...@tiptap/extension-mention@2.0.0-beta.57) (2021-05-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.56](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.55...@tiptap/extension-mention@2.0.0-beta.56) (2021-05-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.55](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.54...@tiptap/extension-mention@2.0.0-beta.55) (2021-05-17)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.54](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.53...@tiptap/extension-mention@2.0.0-beta.54) (2021-05-13)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.53](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.52...@tiptap/extension-mention@2.0.0-beta.53) (2021-05-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.51...@tiptap/extension-mention@2.0.0-beta.52) (2021-05-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.51](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.50...@tiptap/extension-mention@2.0.0-beta.51) (2021-05-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.50](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.49...@tiptap/extension-mention@2.0.0-beta.50) (2021-05-07)
+
+
+### Bug Fixes
+
+* revert adding exports ([bc320d0](https://github.com/ueberdosis/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+
+
+
+
+
+# [2.0.0-beta.49](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.48...@tiptap/extension-mention@2.0.0-beta.49) (2021-05-06)
+
+
+### Bug Fixes
+
+* revert adding type: module ([f8d6475](https://github.com/ueberdosis/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+
+
+
+# [2.0.0-beta.48](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.47...@tiptap/extension-mention@2.0.0-beta.48) (2021-05-06)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/ueberdosis/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+
+
+
+
+
+# [2.0.0-beta.47](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.46...@tiptap/extension-mention@2.0.0-beta.47) (2021-05-06)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.46](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.45...@tiptap/extension-mention@2.0.0-beta.46) (2021-05-06)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.44...@tiptap/extension-mention@2.0.0-beta.45) (2021-05-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.44](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.43...@tiptap/extension-mention@2.0.0-beta.44) (2021-05-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.43](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.42...@tiptap/extension-mention@2.0.0-beta.43) (2021-05-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.42](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.41...@tiptap/extension-mention@2.0.0-beta.42) (2021-04-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.41](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.40...@tiptap/extension-mention@2.0.0-beta.41) (2021-04-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.40](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.39...@tiptap/extension-mention@2.0.0-beta.40) (2021-04-27)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.39](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.38...@tiptap/extension-mention@2.0.0-beta.39) (2021-04-23)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.38](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.37...@tiptap/extension-mention@2.0.0-beta.38) (2021-04-23)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.37](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.36...@tiptap/extension-mention@2.0.0-beta.37) (2021-04-22)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.36](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.35...@tiptap/extension-mention@2.0.0-beta.36) (2021-04-21)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.35](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.34...@tiptap/extension-mention@2.0.0-beta.35) (2021-04-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.34](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.33...@tiptap/extension-mention@2.0.0-beta.34) (2021-04-20)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.33](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.32...@tiptap/extension-mention@2.0.0-beta.33) (2021-04-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.31...@tiptap/extension-mention@2.0.0-beta.32) (2021-04-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.31](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.30...@tiptap/extension-mention@2.0.0-beta.31) (2021-04-15)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.30](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.29...@tiptap/extension-mention@2.0.0-beta.30) (2021-04-15)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.29](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.28...@tiptap/extension-mention@2.0.0-beta.29) (2021-04-12)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.28](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.27...@tiptap/extension-mention@2.0.0-beta.28) (2021-04-12)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.27](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.26...@tiptap/extension-mention@2.0.0-beta.27) (2021-04-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.26](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.25...@tiptap/extension-mention@2.0.0-beta.26) (2021-04-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.24...@tiptap/extension-mention@2.0.0-beta.25) (2021-04-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.23...@tiptap/extension-mention@2.0.0-beta.24) (2021-04-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.23](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.22...@tiptap/extension-mention@2.0.0-beta.23) (2021-04-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.22](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.21...@tiptap/extension-mention@2.0.0-beta.22) (2021-04-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.21](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.20...@tiptap/extension-mention@2.0.0-beta.21) (2021-04-08)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.19...@tiptap/extension-mention@2.0.0-beta.20) (2021-04-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.19](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.18...@tiptap/extension-mention@2.0.0-beta.19) (2021-04-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.17...@tiptap/extension-mention@2.0.0-beta.18) (2021-04-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.16...@tiptap/extension-mention@2.0.0-beta.17) (2021-04-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.16](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.15...@tiptap/extension-mention@2.0.0-beta.16) (2021-04-07)
+
+
+### Features
+
+* add insertContent() command, deprecate insertText(), insertHTML() and insertNode() ([b8d9b7d](https://github.com/ueberdosis/tiptap/commit/b8d9b7d4c70b38fb9eec3c079be8243d30166e5e))
+
+
+
+
+
+# [2.0.0-beta.15](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.14...@tiptap/extension-mention@2.0.0-beta.15) (2021-04-06)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.13...@tiptap/extension-mention@2.0.0-beta.14) (2021-04-04)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.13](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.12...@tiptap/extension-mention@2.0.0-beta.13) (2021-04-02)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.11...@tiptap/extension-mention@2.0.0-beta.12) (2021-04-01)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.11](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.10...@tiptap/extension-mention@2.0.0-beta.11) (2021-04-01)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.9...@tiptap/extension-mention@2.0.0-beta.10) (2021-03-31)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.8...@tiptap/extension-mention@2.0.0-beta.9) (2021-03-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.7...@tiptap/extension-mention@2.0.0-beta.8) (2021-03-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.6...@tiptap/extension-mention@2.0.0-beta.7) (2021-03-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.5...@tiptap/extension-mention@2.0.0-beta.6) (2021-03-24)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.4...@tiptap/extension-mention@2.0.0-beta.5) (2021-03-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.3...@tiptap/extension-mention@2.0.0-beta.4) (2021-03-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.2...@tiptap/extension-mention@2.0.0-beta.3) (2021-03-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-beta.1...@tiptap/extension-mention@2.0.0-beta.2) (2021-03-09)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-beta.1](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.12...@tiptap/extension-mention@2.0.0-beta.1) (2021-03-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.12](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.11...@tiptap/extension-mention@2.0.0-alpha.12) (2021-02-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.11](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.10...@tiptap/extension-mention@2.0.0-alpha.11) (2021-02-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.10](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.9...@tiptap/extension-mention@2.0.0-alpha.10) (2021-02-26)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.9](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.8...@tiptap/extension-mention@2.0.0-alpha.9) (2021-02-18)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.8](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.7...@tiptap/extension-mention@2.0.0-alpha.8) (2021-02-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.7](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.6...@tiptap/extension-mention@2.0.0-alpha.7) (2021-02-16)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.6](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.5...@tiptap/extension-mention@2.0.0-alpha.6) (2021-02-07)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.5](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.4...@tiptap/extension-mention@2.0.0-alpha.5) (2021-02-05)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.4](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.3...@tiptap/extension-mention@2.0.0-alpha.4) (2021-01-29)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.3](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.2...@tiptap/extension-mention@2.0.0-alpha.3) (2021-01-29)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# [2.0.0-alpha.2](https://github.com/ueberdosis/tiptap/compare/@tiptap/extension-mention@2.0.0-alpha.1...@tiptap/extension-mention@2.0.0-alpha.2) (2021-01-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention
+
+
+
+
+
+# 2.0.0-alpha.1 (2021-01-28)
+
+**Note:** Version bump only for package @tiptap/extension-mention

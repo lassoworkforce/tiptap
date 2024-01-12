@@ -16,7 +16,7 @@
     "allowJs": true,
     "checkJs": false,
     "paths": {
-      "@tiptap/*": ["packages/*/dist", "packages/*/src"]
+      "@lassoworkforce/tiptap-extension-mention": ["."]
     },
     "lib": [
       "esnext",
